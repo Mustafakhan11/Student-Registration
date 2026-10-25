@@ -1,69 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My CSS Page</title>
+/* Background color and font */
+body {
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
 
-    <!-- Internal CSS -->
-    <style>
-        h1 {
-            background-color: gray;
-        }
-    </style>
+/* Styled heading */
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 32px;
+}
 
-    <!-- Link External CSS -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+/* Round picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
 
-    <!-- Inline CSS -->
-    <h1 style="color: red;">My CSS Page</h1>
-
-    <p>This is my first CSS lab task.</p>
-
-</body>
-</html>
-
-    <title>CSS ID and Class</title>
-
-    <style>
-        /* Style the title using ID */
-        #title {
-            color: blue;
-            font-size: 28px;
-        }
-
-        /* Style the card using class */
-        .card {
-            border: 2px solid black;
-            padding: 20px;
-            width: 300px;
-        }
-    </style>
-</head>
-<body>
-
-    <h2 id="title">My CSS Page</h2>
-
-    <div class="card">
-        Mustafa Khan
-    </div>
-
-</body>
-</html>
-
-    <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <div class="hero">
-        <h1>About Me</h1>
-    </div>
-
-    <img src="me.jpg" alt="My Picture" class="profile">
-
-    <p>Hello! My name is Mustafa Khan.
-       Welcome to my About page.</p>
-
-</body>
-</html>
+/* Bordered form */
+form {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
